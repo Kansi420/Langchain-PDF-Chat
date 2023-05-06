@@ -1,5 +1,5 @@
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import FAISS

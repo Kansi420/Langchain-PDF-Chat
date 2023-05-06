@@ -4,7 +4,7 @@ from langchain.llms import OpenAI
 
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 loader = PyPDFLoader("./Atomic_Habits.pdf")
 pages = loader.load()
